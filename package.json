@@ -1,0 +1,32 @@
+{
+  "name": "gtagmanager",
+  "version": "1.0.7",
+  "description": "Google Tag Manager the easy way",
+  "main": "dist/index.js",
+  "typings": "../dist/index.d.ts",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pkunz/gtagmanager.git"
+  },
+  "keywords": [
+    "Google",
+    "Tag",
+    "Manager"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pkunz/gtagmanager/issues"
+  },
+  "homepage": "https://gitlab.com/pkunz/gtagmanager#README",
+  "dependencies": {
+    "typings-test": "^1.0.3"
+  },
+  "devDependencies": {
+    "protractor": "^4.0.14",
+    "typings-test": "^1.0.3"
+  }
+}

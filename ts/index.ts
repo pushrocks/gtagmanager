@@ -35,6 +35,7 @@ export class GTagManager {
     }
 
     start() {
+        // the original GoogleTag Code with nicer variable names
         (function(windowArg, documentArg, scriptArg: string, dataLayerArg: string, GTMId: string){
             windowArg[dataLayerArg] = windowArg[dataLayerArg] || []
             windowArg[dataLayerArg].push({'gtm.start': new Date().getTime(), event: 'gtm.js'})
@@ -44,7 +45,7 @@ export class GTagManager {
             j.async = true
             j.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTMId + dl
             f.parentNode.insertBefore(j, f)
-        })(window,document,'script','dataLayer','GTM-XXXX')
+        })(window, document, 'script', 'dataLayer', this.gtagId)
     }
 
     /**

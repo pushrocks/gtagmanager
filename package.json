@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "description": "Google Tag Manager the easy way",
   "main": "dist/index.js",
-  "typings": "../dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "(npmts)"
   },
